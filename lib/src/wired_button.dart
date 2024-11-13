@@ -44,7 +44,7 @@ class WiredButton extends WiredBaseWidget {
         height: double.infinity,
         child: TextButton(
           style: TextButton.styleFrom(
-            primary: textColor,
+            foregroundColor: textColor,
           ),
           child: child,
           onPressed: onPressed,
